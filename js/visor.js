@@ -1,7 +1,7 @@
 /*Ubicacion mapa*/
 var mapa = new L.map('mi-mapa', {
-    center: [20, 50],
-    zoom: 2    
+    center: [-40, -58],
+    zoom: 5    
 });
 /*Capas de fondo*/
 var capaOSM = new L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png');
